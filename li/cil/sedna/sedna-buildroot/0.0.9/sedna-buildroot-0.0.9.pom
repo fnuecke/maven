@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>li.cil.sedna</groupId>
+  <artifactId>sedna-buildroot</artifactId>
+  <version>0.0.9</version>
+  <name>Sedna Buildroot</name>
+  <description>Prebuilt RISC-V Linux images (OpenSBI firmware, kernel and root filesystem) for the Sedna emulator.</description>
+  <url>https://github.com/fnuecke/buildroot</url>
+  <licenses>
+    <license>
+      <name>GPL-2.0-or-later</name>
+      <url>https://github.com/fnuecke/buildroot/blob/sedna/COPYING</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fnuecke</id>
+      <name>Florian Nücke</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/fnuecke/buildroot.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/fnuecke/buildroot.git</developerConnection>
+    <url>https://github.com/fnuecke/buildroot</url>
+  </scm>
+</project>
