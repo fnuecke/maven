@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>li.cil.markdown_manual</groupId>
+  <artifactId>markdown_manual-1.21.11-neoforge</artifactId>
+  <version>1.2.7</version>
+  <name>markdown_manual</name>
+  <url>https://github.com/MightyPirates/MarkdownManual</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://opensource.org/license/mit/</url>
+    </license>
+  </licenses>
+  <scm>
+    <url>https://github.com/MightyPirates/MarkdownManual</url>
+  </scm>
+</project>
