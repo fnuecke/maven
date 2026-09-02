@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>li.cil.sedna</groupId>
+  <artifactId>sedna-cpm</artifactId>
+  <version>0.1.0</version>
+  <name>Sedna CP/M</name>
+  <description>Prebuilt CP/M 2.2 boot ROM and floppy image for the Sedna emulator's Z80 board.</description>
+  <url>https://github.com/fnuecke/sedna-cpm</url>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://github.com/fnuecke/sedna-cpm/blob/main/LICENSE</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>fnuecke</id>
+      <name>Florian Nücke</name>
+    </developer>
+  </developers>
+</project>
