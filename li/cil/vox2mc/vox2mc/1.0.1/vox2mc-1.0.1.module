@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "li.cil.vox2mc",
+    "module": "vox2mc",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.4.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vox2mc-1.0.1.jar",
+          "url": "vox2mc-1.0.1.jar",
+          "size": 83619,
+          "sha512": "8c17b7bf728b15f8adef484ecf33fcb9ff66dee1d2e9b16fbd6cba458e81c0c3435d3a5f7bc06662aa0ebf2b0b69d43820889e0784cebc4ed6e99d6b1c6b8441",
+          "sha256": "4bf453042fe73ba9f923056780320e8b91e52d455b88a3ace0a4527af79b0010",
+          "sha1": "fb52a766024168c16c01ad717f9905a5924a968a",
+          "md5": "ec7b36cf5e23fd87bb92ab2d31c2c172"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.ajalt.clikt",
+          "module": "clikt",
+          "version": {
+            "requires": "5.0.3"
+          },
+          "excludes": [
+            {
+              "group": "com.github.ajalt.mordant",
+              "module": "mordant-jvm-jna"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.11.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "33.3.1-jre"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.2.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "vox2mc-1.0.1.jar",
+          "url": "vox2mc-1.0.1.jar",
+          "size": 83619,
+          "sha512": "8c17b7bf728b15f8adef484ecf33fcb9ff66dee1d2e9b16fbd6cba458e81c0c3435d3a5f7bc06662aa0ebf2b0b69d43820889e0784cebc4ed6e99d6b1c6b8441",
+          "sha256": "4bf453042fe73ba9f923056780320e8b91e52d455b88a3ace0a4527af79b0010",
+          "sha1": "fb52a766024168c16c01ad717f9905a5924a968a",
+          "md5": "ec7b36cf5e23fd87bb92ab2d31c2c172"
+        }
+      ]
+    }
+  ]
+}
