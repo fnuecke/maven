@@ -3,8 +3,8 @@
   <groupId>li.cil.oc2</groupId>
   <artifactId>oc2-1.21.1-fabric</artifactId>
   <versioning>
-    <latest>0.10.0</latest>
-    <release>0.10.0</release>
+    <latest>0.10.1</latest>
+    <release>0.10.1</release>
     <versions>
       <version>0.2.0</version>
       <version>0.3.0</version>
@@ -19,7 +19,8 @@
       <version>0.9.0</version>
       <version>0.9.1</version>
       <version>0.10.0</version>
+      <version>0.10.1</version>
     </versions>
-    <lastUpdated>20261020005553</lastUpdated>
+    <lastUpdated>20261021003319</lastUpdated>
   </versioning>
 </metadata>
